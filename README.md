@@ -1,5 +1,5 @@
 # StoryIns App
-class Dicoding Academy. Submission , pattern MVP
+class Dicoding Academy. Submission , pattern MVVM
 
 
 ##### ~ Screen Home
