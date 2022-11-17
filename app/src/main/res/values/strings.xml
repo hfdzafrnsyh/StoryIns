@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">StoryIns</string>
+
+    <string name="text_name">Name</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="error_title">Failed</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_password_character">Password minimum 6 characters</string>
+    <string name="error_password">Type your password</string>
+    <string name="error_email">Type your email</string>
+    <string name="error_name">Type your name</string>
+    <string name="register_success">Register Success</string>
+
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="ask_logout">Are you logout?</string>
+    <string name="yes">Yes</string>
+    <string name="exit">Exit</string>
+
+
+    <string name="image_detail">image detail</string>
+    <string name="description">Description</string>
+    <string name="date">Upload %1$s</string>
+    <string name="content_description">content description</string>
+    <string name="upload">upload</string>
+    <string name="choose_picture">Choose a Picture</string>
+    <string name="not_accept_permission">Not accept permission</string>
+    <string name="error_description">description must be write</string>
+    <string name="error_add_photo">Please add photo or image</string>
+
+    <string name="add_stories">Add Stories</string>
+    <string name="setting">Setting</string>
+    <string name="success">Success</string>
+
+    <string name="photo_or_image_add_story">Photo or image Add story</string>
+    <string name="photo_or_image_story">Photo or image story</string>
+    <string name="icon_location">Icon Location</string>
+    <string name="story_image">Story Image</string>
+    <string name="see_location">See Location</string>
+    <string name="location">Location</string>
+    <string name="nothing_location">Nothing Location</string>
+    <string name="standard">Standard</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="error_connection">No Connection, please check your connection Internet</string>
+    <string name="icon_app">Icon App</string>
+    <string name="refresh">Refresh</string>
+    <string name="maps_story">Maps Story</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StoryIns</string>
+
+    <string name="text_name">Nama</string>
+    <string name="login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Daftar</string>
+    <string name="error_title">Gagal</string>
+    <string name="cancel">Batal</string>
+    <string name="error_password_character">Minimal password 6 karakter</string>
+    <string name="error_password">Masukan password anda</string>
+    <string name="error_email">Masukan email anda</string>
+    <string name="error_name">Masukan name anda</string>
+    <string name="register_success">Daftar Berhasil</string>
+    <string name="home">Rumah</string>
+    <string name="logout">Keluar</string>
+    <string name="ask_logout">Anda ingin keluar?</string>
+    <string name="yes">Ya</string>
+    <string name="exit">Keluar</string>
+
+    <string name="image_detail">Detail Gambar</string>
+    <string name="description">Deskripsi</string>
+    <string name="date">Unggah %1$s</string>
+    <string name="content_description">Kontent deskripsi</string>
+    <string name="upload">Unggah</string>
+    <string name="choose_picture">Pilih gambar</string>
+    <string name="not_accept_permission">Tidak mendapatkan izin</string>
+    <string name="error_description">deskripsi harus di tulis</string>
+    <string name="error_add_photo">Masukan foto atau gambar</string>
+
+    <string name="add_stories">Tambah Cerita</string>
+    <string name="setting">Pengaturan</string>
+
+    <string name="success">Berhasil</string>
+
+    <string name="photo_or_image_add_story">Photo atau gambar tambah story</string>
+    <string name="photo_or_image_story">Photo atau gambar story</string>
+    <string name="icon_location">Icon Lokasi</string>
+    <string name="story_image">Gambar story</string>
+    <string name="see_location">Lihat Lokasi</string>
+    <string name="location">Lokasi</string>
+    <string name="nothing_location">Tidak ada Lokasi</string>
+    <string name="standard">Standard</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="maps_story">Peta Cerita</string>
+    <string name="error_connection">Tidak ada Koneksi, Periksa internet anda</string>
+    <string name="icon_app">Ikon Aplikasi</string>
+    <string name="refresh">Perbarui</string>
+
+</resources>

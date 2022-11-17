@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_login"
+    android:id="@+id/navigation_auth">
+
+    <fragment
+        android:name="com.example.storyins.ui.main.auth.signin.LoginFragment"
+        android:id="@+id/fragment_login"
+        tools:layout="@layout/fragment_login"
+        >
+
+        <action
+            android:id="@+id/action_register"
+            app:destination="@+id/fragment_register"
+            />
+
+    </fragment>
+
+    <fragment
+        android:name="com.example.storyins.ui.main.auth.register.RegisterFragment"
+        tools:layout="@layout/fragment_register"
+        android:id="@+id/fragment_register">
+
+
+    </fragment>
+
+</navigation>

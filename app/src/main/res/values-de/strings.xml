@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">StoryIns</string>
+
+    <string name="text_name">Name</string>
+    <string name="login">Einloggen</string>
+    <string name="email">Email</string>
+    <string name="password">Passwort</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Registrierung</string>
+    <string name="error_title">Gescheitert</string>
+    <string name="cancel">Abgebrochen</string>
+    <string name="error_password_character">Minimales Passwort 6 Zeichen</string>
+    <string name="error_password">Geben Sie Ihr Passwort ein</string>
+    <string name="error_email">Geben sie ihre E-Mail Adresse ein</string>
+    <string name="error_name">Gib deinen Namen ein</string>
+    <string name="register_success">Registrierung erfolgreich</string>
+    <string name="home">Haus</string>
+    <string name="logout">Hinausgehen</string>
+    <string name="ask_logout">Du willst raus?</string>
+    <string name="yes">Jawohl</string>
+    <string name="exit">Hinausgehen</string>
+
+
+    <string name="image_detail">Bilddetails</string>
+    <string name="description">Beschreibung</string>
+    <string name="date">Hochladen %1$s</string>
+    <string name="content_description">Inhaltsbeschreibung</string>
+    <string name="upload">Hochladen</string>
+    <string name="choose_picture">Bild auswählen</string>
+    <string name="not_accept_permission">Bekomme keine Erlaubnis</string>
+    <string name="error_description">Beschreibung muss geschrieben werden</string>
+    <string name="error_add_photo">Geben Sie ein Foto oder Bild ein</string>
+
+    <string name="add_stories">Geschichte hinzufügen</string>
+    <string name="setting">Anordnung</string>
+
+    <string name="success">Erfolg</string>
+
+    <string name="photo_or_image_add_story">Foto oder Bild Geschichte hinzufügen</string>
+    <string name="photo_or_image_story">Foto- oder Bildergeschichte</string>
+    <string name="icon_location">Symbol Lage</string>
+    <string name="story_image">Geschichte Bild</string>
+    <string name="see_location">Siehe Standort</string>
+    <string name="location">Lage</string>
+    <string name="nothing_location">Nichts Ort</string>
+    <string name="standard">Standard</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="maps_story">Karten Geschichte</string>
+
+    <string name="error_connection">Keine Verbindung, bitte überprüfen Sie Ihre Internetverbindung</string>
+    <string name="icon_app">Symbol-App</string>
+    <string name="refresh">Erfrischen</string>
+
+</resources>

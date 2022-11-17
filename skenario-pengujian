@@ -1,0 +1,77 @@
+
+*StoryAppRepository
+  a.ketika  login berhasil
+    *memastikan mengembalikan Result.Success
+  b.ketika register berhasil
+    *memastikan mengembalikan Result.Success
+  c.ketika memuat data stories dengan location berhasil
+    *memastikan mengembalikan Result.Success
+    *memastikan data tidak null
+    *memastikan jumlah data sesuai yang diharapkan
+  d.ketika tambah stories berhasil
+    *memastikan mengembalikan Result.Success
+  e.ketika token tidak null
+    *memastikan  tidak null serta mengembalikan token
+  f.ketika token tidak null tapi kosong atau empty
+    *memastikan token tidak null tapi mengembalikan string atau data kosong
+ g.ketika user tidak null
+    *memastikan tidak null dan mengembalikan data user
+ h.ketika user tidak null tapi mengembalikan empty
+    *memastikan tidak null dan mengembalikan string atau data kosong
+ i.ketika userlocation tidak null
+    *memastikan tidak null dan mengembalikan data userlocation
+ j.ketika userlocation tidak null tapi mengembalikan empty
+    *memastikan userlocation tidak null dan mengembalikan string atau data kosong
+ k.ketika user logout dan mengembalikan empty
+     *memastikan tidak null dan mengembalikan mengembalikan string kosong atau data kosong
+
+
+*MainViewModel
+   a.ketika get story berhasil
+     *memastikan data tidak null dan mengembalikan success
+     *memastikan jumlah data sesuai yang diharapkan
+   b.ketika berhasil memuat data storie dengan lokasi
+    *memastikan mengembalikan Result.Success
+    *memastikan data tidak null
+    *memastikan jumlah data sesuai yang diharapkan
+   c.ketika get storie dengan lokasi error
+    *memastikan mengembalikan Result.Error
+   d.ketika user lokasi tidak null
+    *memastikan data user lokasi ada dan tidak null
+   e.ketika user lokasi empty atau null
+    *memastikan data user lokasi mengembalikan null
+   f.user logout dan mengembalikan null
+    *memastikan token null setelah logout
+
+
+*StoryViewModel
+        a.ketika tambah stories berhasil
+          *memastikan tambah stories mengembalikan Result.Success
+        b.ketika gagal tambah stories
+           *memastikan tambah stories mengembalikan Result.Error
+
+*LoginViewModel
+        a.ketika  login berhasil
+           *memastikan mengembalikan Result.Success
+           *memastikan data tidak null
+           *memastikan data sesuai yang diharapkan
+        b.ketika login gagal
+            *memastian mengembalikan Result.Error invalid password
+            *memastikan mengembalikan Result.Error email not registered
+        c.ketika token tidak null
+            *memastikan data ada dan mengembalikan token
+        d.ketika token empty atau null
+            *memastikan data null dan mengembalikan null
+        e.ketika user tidak null
+            *memastikan data ada dan tidak null
+        f. ketika user empty atau null
+            *memastikan data null dan mengembalikan null
+
+
+*RegisterViewModel
+     a.ketika register berhasil
+        *memastikan mengembalikan Result.Success
+       *memastikan data tidak null
+     b.ketika register gagal
+        *memastikan mengembalikan Result.Error
+        *memastikan mengembalikan pesan email telah terdaftar
